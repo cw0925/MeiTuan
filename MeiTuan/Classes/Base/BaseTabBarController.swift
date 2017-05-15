@@ -14,7 +14,7 @@ class BaseTabBarController: UITabBarController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        tabBar.tintColor = RGBColor(r: 0, g: 200, b: 176)
+        tabBar.tintColor = BaseColor
         addChildViewControllers()
     }
     /**

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C00C4FF91EC973F600AB7BAC /* HomeCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00C4FF71EC973F600AB7BAC /* HomeCategoryCell.swift */; };
+		C00C4FFA1EC973F600AB7BAC /* HomeCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C00C4FF81EC973F600AB7BAC /* HomeCategoryCell.xib */; };
+		C00C50001EC981EA00AB7BAC /* UIFont+Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00C4FFF1EC981EA00AB7BAC /* UIFont+Scale.swift */; };
+		C00C50051EC9AAA000AB7BAC /* ThemeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00C50031EC9AAA000AB7BAC /* ThemeCell.swift */; };
+		C00C50061EC9AAA000AB7BAC /* ThemeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C00C50041EC9AAA000AB7BAC /* ThemeCell.xib */; };
 		C0E2D2B61EC94002009C92D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E2D2B51EC94002009C92D6 /* AppDelegate.swift */; };
 		C0E2D2BB1EC94002009C92D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0E2D2B91EC94002009C92D6 /* Main.storyboard */; };
 		C0E2D2BD1EC94002009C92D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0E2D2BC1EC94002009C92D6 /* Assets.xcassets */; };
@@ -42,6 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C00C4FF71EC973F600AB7BAC /* HomeCategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCategoryCell.swift; sourceTree = "<group>"; };
+		C00C4FF81EC973F600AB7BAC /* HomeCategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCategoryCell.xib; sourceTree = "<group>"; };
+		C00C4FFF1EC981EA00AB7BAC /* UIFont+Scale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Scale.swift"; sourceTree = "<group>"; };
+		C00C50031EC9AAA000AB7BAC /* ThemeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeCell.swift; sourceTree = "<group>"; };
+		C00C50041EC9AAA000AB7BAC /* ThemeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThemeCell.xib; sourceTree = "<group>"; };
 		C0E2D2B21EC94002009C92D6 /* MeiTuan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeiTuan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0E2D2B51EC94002009C92D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../AppDelegate.swift; sourceTree = "<group>"; };
 		C0E2D2BA1EC94002009C92D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -90,6 +100,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C00C4FF41EC973B500AB7BAC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C0E2D2F51EC9410C009C92D6 /* HomeViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C00C4FF51EC973BD00AB7BAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C00C4FF71EC973F600AB7BAC /* HomeCategoryCell.swift */,
+				C00C4FF81EC973F600AB7BAC /* HomeCategoryCell.xib */,
+				C00C50031EC9AAA000AB7BAC /* ThemeCell.swift */,
+				C00C50041EC9AAA000AB7BAC /* ThemeCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C00C4FF61EC973C100AB7BAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C00C4FFB1EC97FD600AB7BAC /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				C00C4FFC1EC97FE000AB7BAC /* Font */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		C00C4FFC1EC97FE000AB7BAC /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				C00C4FFF1EC981EA00AB7BAC /* UIFont+Scale.swift */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		C0E2D2A91EC94002009C92D6 = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +203,7 @@
 		C0E2D2E41EC9407A009C92D6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C00C4FFB1EC97FD600AB7BAC /* Tool */,
 				C0E2D2EC1EC94093009C92D6 /* Base */,
 				C0E2D2E51EC9407A009C92D6 /* Hangout */,
 				C0E2D2E61EC9407A009C92D6 /* Home */,
@@ -158,7 +211,6 @@
 				C0E2D2E81EC9407A009C92D6 /* Near */,
 				C0E2D2E91EC9407A009C92D6 /* Order */,
 				C0E2D2EA1EC9407A009C92D6 /* Other */,
-				C0E2D2EB1EC9407A009C92D6 /* Tool */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -174,7 +226,9 @@
 		C0E2D2E61EC9407A009C92D6 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				C0E2D2F51EC9410C009C92D6 /* HomeViewController.swift */,
+				C00C4FF61EC973C100AB7BAC /* Model */,
+				C00C4FF51EC973BD00AB7BAC /* View */,
+				C00C4FF41EC973B500AB7BAC /* Controller */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -210,13 +264,6 @@
 				C0E2D2B51EC94002009C92D6 /* AppDelegate.swift */,
 			);
 			path = Other;
-			sourceTree = "<group>";
-		};
-		C0E2D2EB1EC9407A009C92D6 /* Tool */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tool;
 			sourceTree = "<group>";
 		};
 		C0E2D2EC1EC94093009C92D6 /* Base */ = {
@@ -339,8 +386,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C00C4FFA1EC973F600AB7BAC /* HomeCategoryCell.xib in Resources */,
 				C0E2D2C01EC94002009C92D6 /* LaunchScreen.storyboard in Resources */,
 				C0E2D2BD1EC94002009C92D6 /* Assets.xcassets in Resources */,
+				C00C50061EC9AAA000AB7BAC /* ThemeCell.xib in Resources */,
 				C0E2D2BB1EC94002009C92D6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,12 +417,15 @@
 			files = (
 				C0E2D2F41EC94106009C92D6 /* HangViewController.swift in Sources */,
 				C0E2D2FC1EC9411D009C92D6 /* OrderViewController.swift in Sources */,
+				C00C4FF91EC973F600AB7BAC /* HomeCategoryCell.swift in Sources */,
 				C0E2D2F21EC940FE009C92D6 /* BaseViewController.swift in Sources */,
 				C0E2D2FA1EC94118009C92D6 /* NearViewController.swift in Sources */,
 				C0E2D2F11EC940FE009C92D6 /* BaseTabBarController.swift in Sources */,
 				C0E2D2B61EC94002009C92D6 /* AppDelegate.swift in Sources */,
 				C0E2D2F61EC9410C009C92D6 /* HomeViewController.swift in Sources */,
+				C00C50051EC9AAA000AB7BAC /* ThemeCell.swift in Sources */,
 				C0E2D2FE1EC94125009C92D6 /* Constant.swift in Sources */,
+				C00C50001EC981EA00AB7BAC /* UIFont+Scale.swift in Sources */,
 				C0E2D2F81EC94112009C92D6 /* MyViewController.swift in Sources */,
 				C0E2D2F01EC940FE009C92D6 /* BaseNavigationController.swift in Sources */,
 			);
@@ -529,6 +581,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q3A9R265EU;
 				INFOPLIST_FILE = MeiTuan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CW.MeiTuan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -542,6 +595,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q3A9R265EU;
 				INFOPLIST_FILE = MeiTuan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CW.MeiTuan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -626,6 +680,7 @@
 				C0E2D2DC1EC94003009C92D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0E2D2DD1EC94003009C92D6 /* Build configuration list for PBXNativeTarget "MeiTuanTests" */ = {
 			isa = XCConfigurationList;
@@ -634,6 +689,7 @@
 				C0E2D2DF1EC94003009C92D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0E2D2E01EC94003009C92D6 /* Build configuration list for PBXNativeTarget "MeiTuanUITests" */ = {
 			isa = XCConfigurationList;
@@ -642,6 +698,7 @@
 				C0E2D2E21EC94003009C92D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
