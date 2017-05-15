@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		C0E2D2B61EC94002009C92D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E2D2B51EC94002009C92D6 /* AppDelegate.swift */; };
-		C0E2D2B81EC94002009C92D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E2D2B71EC94002009C92D6 /* ViewController.swift */; };
 		C0E2D2BB1EC94002009C92D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0E2D2B91EC94002009C92D6 /* Main.storyboard */; };
 		C0E2D2BD1EC94002009C92D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0E2D2BC1EC94002009C92D6 /* Assets.xcassets */; };
 		C0E2D2C01EC94002009C92D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0E2D2BE1EC94002009C92D6 /* LaunchScreen.storyboard */; };
 		C0E2D2CB1EC94002009C92D6 /* MeiTuanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E2D2CA1EC94002009C92D6 /* MeiTuanTests.swift */; };
 		C0E2D2D61EC94003009C92D6 /* MeiTuanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E2D2D51EC94003009C92D6 /* MeiTuanUITests.swift */; };
+		C0E2D2F01EC940FE009C92D6 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E2D2ED1EC940FE009C92D6 /* BaseNavigationController.swift */; };
+		C0E2D2F11EC940FE009C92D6 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E2D2EE1EC940FE009C92D6 /* BaseTabBarController.swift */; };
+		C0E2D2F21EC940FE009C92D6 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E2D2EF1EC940FE009C92D6 /* BaseViewController.swift */; };
+		C0E2D2F41EC94106009C92D6 /* HangViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E2D2F31EC94106009C92D6 /* HangViewController.swift */; };
+		C0E2D2F61EC9410C009C92D6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E2D2F51EC9410C009C92D6 /* HomeViewController.swift */; };
+		C0E2D2F81EC94112009C92D6 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E2D2F71EC94112009C92D6 /* MyViewController.swift */; };
+		C0E2D2FA1EC94118009C92D6 /* NearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E2D2F91EC94118009C92D6 /* NearViewController.swift */; };
+		C0E2D2FC1EC9411D009C92D6 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E2D2FB1EC9411D009C92D6 /* OrderViewController.swift */; };
+		C0E2D2FE1EC94125009C92D6 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E2D2FD1EC94125009C92D6 /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +43,7 @@
 
 /* Begin PBXFileReference section */
 		C0E2D2B21EC94002009C92D6 /* MeiTuan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeiTuan.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0E2D2B51EC94002009C92D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C0E2D2B71EC94002009C92D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0E2D2B51EC94002009C92D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../AppDelegate.swift; sourceTree = "<group>"; };
 		C0E2D2BA1EC94002009C92D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C0E2D2BC1EC94002009C92D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0E2D2BF1EC94002009C92D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,15 @@
 		C0E2D2D11EC94003009C92D6 /* MeiTuanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeiTuanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0E2D2D51EC94003009C92D6 /* MeiTuanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiTuanUITests.swift; sourceTree = "<group>"; };
 		C0E2D2D71EC94003009C92D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0E2D2ED1EC940FE009C92D6 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		C0E2D2EE1EC940FE009C92D6 /* BaseTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		C0E2D2EF1EC940FE009C92D6 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		C0E2D2F31EC94106009C92D6 /* HangViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HangViewController.swift; sourceTree = "<group>"; };
+		C0E2D2F51EC9410C009C92D6 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C0E2D2F71EC94112009C92D6 /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		C0E2D2F91EC94118009C92D6 /* NearViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearViewController.swift; sourceTree = "<group>"; };
+		C0E2D2FB1EC9411D009C92D6 /* OrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		C0E2D2FD1EC94125009C92D6 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +113,8 @@
 		C0E2D2B41EC94002009C92D6 /* MeiTuan */ = {
 			isa = PBXGroup;
 			children = (
-				C0E2D2B51EC94002009C92D6 /* AppDelegate.swift */,
-				C0E2D2B71EC94002009C92D6 /* ViewController.swift */,
-				C0E2D2B91EC94002009C92D6 /* Main.storyboard */,
-				C0E2D2BC1EC94002009C92D6 /* Assets.xcassets */,
-				C0E2D2BE1EC94002009C92D6 /* LaunchScreen.storyboard */,
-				C0E2D2C11EC94002009C92D6 /* Info.plist */,
+				C0E2D2E41EC9407A009C92D6 /* Classes */,
+				C0E2D2E31EC94012009C92D6 /* Resource */,
 			);
 			path = MeiTuan;
 			sourceTree = "<group>";
@@ -123,6 +135,98 @@
 				C0E2D2D71EC94003009C92D6 /* Info.plist */,
 			);
 			path = MeiTuanUITests;
+			sourceTree = "<group>";
+		};
+		C0E2D2E31EC94012009C92D6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C0E2D2B91EC94002009C92D6 /* Main.storyboard */,
+				C0E2D2BC1EC94002009C92D6 /* Assets.xcassets */,
+				C0E2D2BE1EC94002009C92D6 /* LaunchScreen.storyboard */,
+				C0E2D2C11EC94002009C92D6 /* Info.plist */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		C0E2D2E41EC9407A009C92D6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C0E2D2EC1EC94093009C92D6 /* Base */,
+				C0E2D2E51EC9407A009C92D6 /* Hangout */,
+				C0E2D2E61EC9407A009C92D6 /* Home */,
+				C0E2D2E71EC9407A009C92D6 /* My */,
+				C0E2D2E81EC9407A009C92D6 /* Near */,
+				C0E2D2E91EC9407A009C92D6 /* Order */,
+				C0E2D2EA1EC9407A009C92D6 /* Other */,
+				C0E2D2EB1EC9407A009C92D6 /* Tool */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C0E2D2E51EC9407A009C92D6 /* Hangout */ = {
+			isa = PBXGroup;
+			children = (
+				C0E2D2F31EC94106009C92D6 /* HangViewController.swift */,
+			);
+			path = Hangout;
+			sourceTree = "<group>";
+		};
+		C0E2D2E61EC9407A009C92D6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C0E2D2F51EC9410C009C92D6 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C0E2D2E71EC9407A009C92D6 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				C0E2D2F71EC94112009C92D6 /* MyViewController.swift */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		C0E2D2E81EC9407A009C92D6 /* Near */ = {
+			isa = PBXGroup;
+			children = (
+				C0E2D2F91EC94118009C92D6 /* NearViewController.swift */,
+			);
+			path = Near;
+			sourceTree = "<group>";
+		};
+		C0E2D2E91EC9407A009C92D6 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				C0E2D2FB1EC9411D009C92D6 /* OrderViewController.swift */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		C0E2D2EA1EC9407A009C92D6 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				C0E2D2FD1EC94125009C92D6 /* Constant.swift */,
+				C0E2D2B51EC94002009C92D6 /* AppDelegate.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		C0E2D2EB1EC9407A009C92D6 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		C0E2D2EC1EC94093009C92D6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C0E2D2ED1EC940FE009C92D6 /* BaseNavigationController.swift */,
+				C0E2D2EE1EC940FE009C92D6 /* BaseTabBarController.swift */,
+				C0E2D2EF1EC940FE009C92D6 /* BaseViewController.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +366,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0E2D2B81EC94002009C92D6 /* ViewController.swift in Sources */,
+				C0E2D2F41EC94106009C92D6 /* HangViewController.swift in Sources */,
+				C0E2D2FC1EC9411D009C92D6 /* OrderViewController.swift in Sources */,
+				C0E2D2F21EC940FE009C92D6 /* BaseViewController.swift in Sources */,
+				C0E2D2FA1EC94118009C92D6 /* NearViewController.swift in Sources */,
+				C0E2D2F11EC940FE009C92D6 /* BaseTabBarController.swift in Sources */,
 				C0E2D2B61EC94002009C92D6 /* AppDelegate.swift in Sources */,
+				C0E2D2F61EC9410C009C92D6 /* HomeViewController.swift in Sources */,
+				C0E2D2FE1EC94125009C92D6 /* Constant.swift in Sources */,
+				C0E2D2F81EC94112009C92D6 /* MyViewController.swift in Sources */,
+				C0E2D2F01EC940FE009C92D6 /* BaseNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
