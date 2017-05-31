@@ -9,11 +9,11 @@
 import UIKit
 
 let cellWidth = (SCREENW-60)/5
+let cellHeight = cellWidth+20
 
-let themeTopCellW = (SCREENW-60)/3
-let themeBottomCellW = (SCREENW-50)/4
+let themeCellW = SCREENW/4
 
-class HomeViewController: BaseViewController,UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout{
+class HomeViewController: BaseViewController,UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout,UITableViewDelegate,UITableViewDataSource{
 
     let pageControl = UIPageControl()
     var categoryCollection:UICollectionView? = nil
@@ -26,14 +26,14 @@ class HomeViewController: BaseViewController,UICollectionViewDataSource,UICollec
         initUI()
     }
     private func initUI()  {
-        let head = UIView.init(frame: CGRect(x:0,y:0,width:SCREENW,height:SCREENH-80))
+        let head = UIView.init(frame:.zero)
         head.backgroundColor = RGBColor(r: 239, g: 239, b: 239)
         
-        let category = UIView.init(frame: CGRect(x:0,y:0,width:SCREENW,height:2*cellWidth+100))
+        let category = UIView.init(frame:.zero)
         head.addSubview(category)
         
         let categoryLayout = UICollectionViewFlowLayout()
-        //categoryLayout.itemSize = CGSize(width:cellWidth,height:cellWidth+20)
+        categoryLayout.itemSize = CGSize(width:cellWidth,height:cellHeight)
         categoryLayout.scrollDirection = .horizontal
         categoryLayout.minimumInteritemSpacing = 5
         
@@ -47,6 +47,8 @@ class HomeViewController: BaseViewController,UICollectionViewDataSource,UICollec
         categoryCollection.register(UINib.init(nibName: "HomeCategoryCell", bundle: nil), forCellWithReuseIdentifier: "homeCell")
         self.categoryCollection = categoryCollection
         
+         category.frame = CGRect(x:0,y:0,width:SCREENW,height:categoryCollection.frame.size.height+30)
+        
         pageControl.frame = CGRect(x:0,y:2*cellWidth+70,width:SCREENW,height:30)
         pageControl.backgroundColor = UIColor.white
         pageControl.numberOfPages = 2
@@ -55,42 +57,40 @@ class HomeViewController: BaseViewController,UICollectionViewDataSource,UICollec
         pageControl.currentPageIndicatorTintColor = BaseColor
         category.addSubview(pageControl)
         
-        let theme = UIView.init(frame: CGRect(x:0,y:2*cellWidth+100+10,width:SCREENW,height:2*themeTopCellW+100))
-        theme.backgroundColor = UIColor.red
-        head.addSubview(theme)
-        
         let themeLayout = UICollectionViewFlowLayout()
+        themeLayout.itemSize = CGSize(width:themeCellW-10,height:themeCellW+20)
         
-        let themeCollection = UICollectionView.init(frame: theme.bounds, collectionViewLayout:themeLayout)
+        let themeCollection = UICollectionView.init(frame: CGRect(x:0,y:categoryCollection.frame.size.height+30+10,width:SCREENW,height:2*themeCellW+50), collectionViewLayout:themeLayout)
         themeCollection.delegate = self
         themeCollection.dataSource = self
         themeCollection.isScrollEnabled = false
         themeCollection.backgroundColor = UIColor.white
-        theme.addSubview(themeCollection)
+        head.addSubview(themeCollection)
         themeCollection.register(UINib.init(nibName: "ThemeCell", bundle: nil), forCellWithReuseIdentifier: "themeCell")
         self.themeCollection = themeCollection
         
+        let  tip = UILabel.init(frame: CGRect(x:0,y:category.frame.size.height+themeCollection.frame.size.height+20,width:SCREENW,height:50))
+        tip.text = "- 猜你喜欢 -"
+        tip.backgroundColor = UIColor.white
+        tip.textAlignment = .center
+        head.addSubview(tip)
+        
+        head.frame = CGRect(x:0,y:0,width:SCREENW,height:category.frame.size.height+themeCollection.frame.size.height+60)
+        
         let homeTable = UITableView.init(frame: view.bounds, style: .plain)
+        homeTable.delegate = self
+        homeTable.dataSource = self
         homeTable.tableHeaderView = head
+        homeTable.rowHeight = 120
         view.addSubview(homeTable)
+        homeTable.register(UINib.init(nibName: "HomeCell", bundle: nil), forCellReuseIdentifier: "cell")
     }
     //collectionviewDelegate
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         if collectionView.isEqual(self.categoryCollection) {
             return 20
         }else{
-            return 7
-        }
-    }
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        if collectionView.isEqual(themeCollection) {
-            if indexPath.item<3 {
-                return CGSize(width:themeTopCellW,height:themeTopCellW+50)
-            }else{
-                return CGSize(width:themeBottomCellW,height:themeTopCellW+50)
-            }
-        }else{
-            return CGSize(width:cellWidth,height:cellWidth+20)
+            return 8
         }
     }
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -108,7 +108,11 @@ class HomeViewController: BaseViewController,UICollectionViewDataSource,UICollec
         
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
-        return UIEdgeInsetsMake(10,10, 10, 10)
+        if collectionView.isEqual(categoryCollection) {
+            return UIEdgeInsetsMake(10,10, 10, 10)
+        }else{
+            return UIEdgeInsetsMake(0, 0, 0, 0)
+        }
     }
     //scrollDelegate
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
@@ -119,6 +123,18 @@ class HomeViewController: BaseViewController,UICollectionViewDataSource,UICollec
             }
             pageControl.currentPage = Int(page)
         }
+    }
+    //tableviewDelegate
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 10
+    }
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! HomeCell
+        return cell
+        
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

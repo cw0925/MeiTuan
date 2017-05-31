@@ -27,6 +27,8 @@
 		C0E2D2FA1EC94118009C92D6 /* NearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E2D2F91EC94118009C92D6 /* NearViewController.swift */; };
 		C0E2D2FC1EC9411D009C92D6 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E2D2FB1EC9411D009C92D6 /* OrderViewController.swift */; };
 		C0E2D2FE1EC94125009C92D6 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E2D2FD1EC94125009C92D6 /* Constant.swift */; };
+		CCD84ACD1EDE8D9000F8091C /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD84ACB1EDE8D9000F8091C /* HomeCell.swift */; };
+		CCD84ACE1EDE8D9100F8091C /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCD84ACC1EDE8D9000F8091C /* HomeCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,8 @@
 		C0E2D2F91EC94118009C92D6 /* NearViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearViewController.swift; sourceTree = "<group>"; };
 		C0E2D2FB1EC9411D009C92D6 /* OrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 		C0E2D2FD1EC94125009C92D6 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		CCD84ACB1EDE8D9000F8091C /* HomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		CCD84ACC1EDE8D9000F8091C /* HomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 				C00C4FF81EC973F600AB7BAC /* HomeCategoryCell.xib */,
 				C00C50031EC9AAA000AB7BAC /* ThemeCell.swift */,
 				C00C50041EC9AAA000AB7BAC /* ThemeCell.xib */,
+				CCD84ACB1EDE8D9000F8091C /* HomeCell.swift */,
+				CCD84ACC1EDE8D9000F8091C /* HomeCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -390,6 +396,7 @@
 				C0E2D2C01EC94002009C92D6 /* LaunchScreen.storyboard in Resources */,
 				C0E2D2BD1EC94002009C92D6 /* Assets.xcassets in Resources */,
 				C00C50061EC9AAA000AB7BAC /* ThemeCell.xib in Resources */,
+				CCD84ACE1EDE8D9100F8091C /* HomeCell.xib in Resources */,
 				C0E2D2BB1EC94002009C92D6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,6 +430,7 @@
 				C0E2D2F11EC940FE009C92D6 /* BaseTabBarController.swift in Sources */,
 				C0E2D2B61EC94002009C92D6 /* AppDelegate.swift in Sources */,
 				C0E2D2F61EC9410C009C92D6 /* HomeViewController.swift in Sources */,
+				CCD84ACD1EDE8D9000F8091C /* HomeCell.swift in Sources */,
 				C00C50051EC9AAA000AB7BAC /* ThemeCell.swift in Sources */,
 				C0E2D2FE1EC94125009C92D6 /* Constant.swift in Sources */,
 				C00C50001EC981EA00AB7BAC /* UIFont+Scale.swift in Sources */,
