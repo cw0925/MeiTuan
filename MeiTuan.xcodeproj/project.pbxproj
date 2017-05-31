@@ -27,6 +27,25 @@
 		C0E2D2FA1EC94118009C92D6 /* NearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E2D2F91EC94118009C92D6 /* NearViewController.swift */; };
 		C0E2D2FC1EC9411D009C92D6 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E2D2FB1EC9411D009C92D6 /* OrderViewController.swift */; };
 		C0E2D2FE1EC94125009C92D6 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E2D2FD1EC94125009C92D6 /* Constant.swift */; };
+		CC9033F11EDEA54D002FAF4A /* XXContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9033ED1EDEA54D002FAF4A /* XXContentView.swift */; };
+		CC9033F21EDEA54D002FAF4A /* XXTallyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9033EE1EDEA54D002FAF4A /* XXTallyView.swift */; };
+		CC9033F31EDEA54D002FAF4A /* XXTitleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9033EF1EDEA54D002FAF4A /* XXTitleStyle.swift */; };
+		CC9033F41EDEA54D002FAF4A /* XXTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9033F01EDEA54D002FAF4A /* XXTitleView.swift */; };
+		CC9033F61EDEA697002FAF4A /* XXColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9033F51EDEA697002FAF4A /* XXColor.swift */; };
+		CC9033F81EDEAD38002FAF4A /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9033F71EDEAD38002FAF4A /* FoodViewController.swift */; };
+		CC9033FA1EDEAD56002FAF4A /* HotelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9033F91EDEAD56002FAF4A /* HotelViewController.swift */; };
+		CC9034001EDEAD78002FAF4A /* WholeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9033FF1EDEAD78002FAF4A /* WholeViewController.swift */; };
+		CC9034021EDEAD8A002FAF4A /* FunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9034011EDEAD8A002FAF4A /* FunViewController.swift */; };
+		CC9034081EDEBFEB002FAF4A /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9034061EDEBFEB002FAF4A /* FoodCell.swift */; };
+		CC9034091EDEBFEB002FAF4A /* FoodCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC9034071EDEBFEB002FAF4A /* FoodCell.xib */; };
+		CC90340E1EDEC55A002FAF4A /* HeadLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC90340D1EDEC55A002FAF4A /* HeadLineViewController.swift */; };
+		CC9034101EDEC57E002FAF4A /* DeliciousViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC90340F1EDEC57E002FAF4A /* DeliciousViewController.swift */; };
+		CC9034121EDEC597002FAF4A /* HaveFunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9034111EDEC597002FAF4A /* HaveFunViewController.swift */; };
+		CC9034141EDEC5B4002FAF4A /* FilmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9034131EDEC5B4002FAF4A /* FilmViewController.swift */; };
+		CC9034171EDEC722002FAF4A /* HeadThreeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9034151EDEC722002FAF4A /* HeadThreeCell.swift */; };
+		CC9034181EDEC722002FAF4A /* HeadThreeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC9034161EDEC722002FAF4A /* HeadThreeCell.xib */; };
+		CC90341B1EDEC734002FAF4A /* HeadOneCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9034191EDEC734002FAF4A /* HeadOneCell.swift */; };
+		CC90341C1EDEC734002FAF4A /* HeadOneCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC90341A1EDEC734002FAF4A /* HeadOneCell.xib */; };
 		CCD84ACD1EDE8D9000F8091C /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD84ACB1EDE8D9000F8091C /* HomeCell.swift */; };
 		CCD84ACE1EDE8D9100F8091C /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCD84ACC1EDE8D9000F8091C /* HomeCell.xib */; };
 /* End PBXBuildFile section */
@@ -75,6 +94,25 @@
 		C0E2D2F91EC94118009C92D6 /* NearViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearViewController.swift; sourceTree = "<group>"; };
 		C0E2D2FB1EC9411D009C92D6 /* OrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 		C0E2D2FD1EC94125009C92D6 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		CC9033ED1EDEA54D002FAF4A /* XXContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XXContentView.swift; sourceTree = "<group>"; };
+		CC9033EE1EDEA54D002FAF4A /* XXTallyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XXTallyView.swift; sourceTree = "<group>"; };
+		CC9033EF1EDEA54D002FAF4A /* XXTitleStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XXTitleStyle.swift; sourceTree = "<group>"; };
+		CC9033F01EDEA54D002FAF4A /* XXTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XXTitleView.swift; sourceTree = "<group>"; };
+		CC9033F51EDEA697002FAF4A /* XXColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XXColor.swift; sourceTree = "<group>"; };
+		CC9033F71EDEAD38002FAF4A /* FoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		CC9033F91EDEAD56002FAF4A /* HotelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelViewController.swift; sourceTree = "<group>"; };
+		CC9033FF1EDEAD78002FAF4A /* WholeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WholeViewController.swift; sourceTree = "<group>"; };
+		CC9034011EDEAD8A002FAF4A /* FunViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunViewController.swift; sourceTree = "<group>"; };
+		CC9034061EDEBFEB002FAF4A /* FoodCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
+		CC9034071EDEBFEB002FAF4A /* FoodCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoodCell.xib; sourceTree = "<group>"; };
+		CC90340D1EDEC55A002FAF4A /* HeadLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeadLineViewController.swift; sourceTree = "<group>"; };
+		CC90340F1EDEC57E002FAF4A /* DeliciousViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeliciousViewController.swift; sourceTree = "<group>"; };
+		CC9034111EDEC597002FAF4A /* HaveFunViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HaveFunViewController.swift; sourceTree = "<group>"; };
+		CC9034131EDEC5B4002FAF4A /* FilmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmViewController.swift; sourceTree = "<group>"; };
+		CC9034151EDEC722002FAF4A /* HeadThreeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeadThreeCell.swift; sourceTree = "<group>"; };
+		CC9034161EDEC722002FAF4A /* HeadThreeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeadThreeCell.xib; sourceTree = "<group>"; };
+		CC9034191EDEC734002FAF4A /* HeadOneCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeadOneCell.swift; sourceTree = "<group>"; };
+		CC90341A1EDEC734002FAF4A /* HeadOneCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeadOneCell.xib; sourceTree = "<group>"; };
 		CCD84ACB1EDE8D9000F8091C /* HomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
 		CCD84ACC1EDE8D9000F8091C /* HomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -135,6 +173,7 @@
 		C00C4FFB1EC97FD600AB7BAC /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				CC9033EC1EDEA54D002FAF4A /* XXTallyView */,
 				C00C4FFC1EC97FE000AB7BAC /* Font */,
 			);
 			path = Tool;
@@ -224,7 +263,9 @@
 		C0E2D2E51EC9407A009C92D6 /* Hangout */ = {
 			isa = PBXGroup;
 			children = (
-				C0E2D2F31EC94106009C92D6 /* HangViewController.swift */,
+				CC90340C1EDEC503002FAF4A /* Controller */,
+				CC90340B1EDEC4FD002FAF4A /* View */,
+				CC90340A1EDEC4EF002FAF4A /* Model */,
 			);
 			path = Hangout;
 			sourceTree = "<group>";
@@ -250,7 +291,9 @@
 		C0E2D2E81EC9407A009C92D6 /* Near */ = {
 			isa = PBXGroup;
 			children = (
-				C0E2D2F91EC94118009C92D6 /* NearViewController.swift */,
+				CC9034051EDEBFC7002FAF4A /* Controller */,
+				CC9034041EDEBFC2002FAF4A /* View */,
+				CC9034031EDEBFBC002FAF4A /* Model */,
 			);
 			path = Near;
 			sourceTree = "<group>";
@@ -280,6 +323,76 @@
 				C0E2D2EF1EC940FE009C92D6 /* BaseViewController.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		CC9033EC1EDEA54D002FAF4A /* XXTallyView */ = {
+			isa = PBXGroup;
+			children = (
+				CC9033ED1EDEA54D002FAF4A /* XXContentView.swift */,
+				CC9033EE1EDEA54D002FAF4A /* XXTallyView.swift */,
+				CC9033EF1EDEA54D002FAF4A /* XXTitleStyle.swift */,
+				CC9033F01EDEA54D002FAF4A /* XXTitleView.swift */,
+				CC9033F51EDEA697002FAF4A /* XXColor.swift */,
+			);
+			path = XXTallyView;
+			sourceTree = "<group>";
+		};
+		CC9034031EDEBFBC002FAF4A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CC9034041EDEBFC2002FAF4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CC9034061EDEBFEB002FAF4A /* FoodCell.swift */,
+				CC9034071EDEBFEB002FAF4A /* FoodCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CC9034051EDEBFC7002FAF4A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C0E2D2F91EC94118009C92D6 /* NearViewController.swift */,
+				CC9033F71EDEAD38002FAF4A /* FoodViewController.swift */,
+				CC9033F91EDEAD56002FAF4A /* HotelViewController.swift */,
+				CC9033FF1EDEAD78002FAF4A /* WholeViewController.swift */,
+				CC9034011EDEAD8A002FAF4A /* FunViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CC90340A1EDEC4EF002FAF4A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CC90340B1EDEC4FD002FAF4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CC9034151EDEC722002FAF4A /* HeadThreeCell.swift */,
+				CC9034161EDEC722002FAF4A /* HeadThreeCell.xib */,
+				CC9034191EDEC734002FAF4A /* HeadOneCell.swift */,
+				CC90341A1EDEC734002FAF4A /* HeadOneCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CC90340C1EDEC503002FAF4A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C0E2D2F31EC94106009C92D6 /* HangViewController.swift */,
+				CC90340D1EDEC55A002FAF4A /* HeadLineViewController.swift */,
+				CC90340F1EDEC57E002FAF4A /* DeliciousViewController.swift */,
+				CC9034111EDEC597002FAF4A /* HaveFunViewController.swift */,
+				CC9034131EDEC5B4002FAF4A /* FilmViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -396,7 +509,10 @@
 				C0E2D2C01EC94002009C92D6 /* LaunchScreen.storyboard in Resources */,
 				C0E2D2BD1EC94002009C92D6 /* Assets.xcassets in Resources */,
 				C00C50061EC9AAA000AB7BAC /* ThemeCell.xib in Resources */,
+				CC9034181EDEC722002FAF4A /* HeadThreeCell.xib in Resources */,
+				CC90341C1EDEC734002FAF4A /* HeadOneCell.xib in Resources */,
 				CCD84ACE1EDE8D9100F8091C /* HomeCell.xib in Resources */,
+				CC9034091EDEBFEB002FAF4A /* FoodCell.xib in Resources */,
 				C0E2D2BB1EC94002009C92D6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,19 +539,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0E2D2F41EC94106009C92D6 /* HangViewController.swift in Sources */,
+				CC9034081EDEBFEB002FAF4A /* FoodCell.swift in Sources */,
+				CC9034171EDEC722002FAF4A /* HeadThreeCell.swift in Sources */,
 				C0E2D2FC1EC9411D009C92D6 /* OrderViewController.swift in Sources */,
 				C00C4FF91EC973F600AB7BAC /* HomeCategoryCell.swift in Sources */,
+				CC9033F41EDEA54D002FAF4A /* XXTitleView.swift in Sources */,
 				C0E2D2F21EC940FE009C92D6 /* BaseViewController.swift in Sources */,
 				C0E2D2FA1EC94118009C92D6 /* NearViewController.swift in Sources */,
+				CC90341B1EDEC734002FAF4A /* HeadOneCell.swift in Sources */,
+				CC9033F81EDEAD38002FAF4A /* FoodViewController.swift in Sources */,
 				C0E2D2F11EC940FE009C92D6 /* BaseTabBarController.swift in Sources */,
 				C0E2D2B61EC94002009C92D6 /* AppDelegate.swift in Sources */,
+				CC9034141EDEC5B4002FAF4A /* FilmViewController.swift in Sources */,
 				C0E2D2F61EC9410C009C92D6 /* HomeViewController.swift in Sources */,
 				CCD84ACD1EDE8D9000F8091C /* HomeCell.swift in Sources */,
+				CC9034101EDEC57E002FAF4A /* DeliciousViewController.swift in Sources */,
 				C00C50051EC9AAA000AB7BAC /* ThemeCell.swift in Sources */,
+				CC9033F31EDEA54D002FAF4A /* XXTitleStyle.swift in Sources */,
+				CC90340E1EDEC55A002FAF4A /* HeadLineViewController.swift in Sources */,
+				CC9033F11EDEA54D002FAF4A /* XXContentView.swift in Sources */,
+				CC9034121EDEC597002FAF4A /* HaveFunViewController.swift in Sources */,
+				CC9034001EDEAD78002FAF4A /* WholeViewController.swift in Sources */,
 				C0E2D2FE1EC94125009C92D6 /* Constant.swift in Sources */,
+				CC9033F61EDEA697002FAF4A /* XXColor.swift in Sources */,
+				CC9033FA1EDEAD56002FAF4A /* HotelViewController.swift in Sources */,
 				C00C50001EC981EA00AB7BAC /* UIFont+Scale.swift in Sources */,
+				CC9033F21EDEA54D002FAF4A /* XXTallyView.swift in Sources */,
 				C0E2D2F81EC94112009C92D6 /* MyViewController.swift in Sources */,
 				C0E2D2F01EC940FE009C92D6 /* BaseNavigationController.swift in Sources */,
+				CC9034021EDEAD8A002FAF4A /* FunViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

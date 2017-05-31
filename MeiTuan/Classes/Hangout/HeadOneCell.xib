@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="103" id="KGk-i7-Jjw" customClass="HeadOneCell" customModule="MeiTuan" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="103"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="103"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_homepage_holidayCategory_43x43_" translatesAutoresizingMaskIntoConstraints="NO" id="Rul-wG-7fS">
+                        <rect key="frame" x="194" y="8" width="118" height="87"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="118" id="lGL-2l-SM1"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="高端吃货福利------风雅铁板达人" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BJx-KX-fzZ">
+                        <rect key="frame" x="8" y="8" width="178" height="58"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="总有刁民想害朕  刚刚更新" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V7O-Hm-TNz">
+                        <rect key="frame" x="8" y="74" width="178" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="xib-Vi-ugg"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Rul-wG-7fS" firstAttribute="leading" secondItem="BJx-KX-fzZ" secondAttribute="trailing" constant="8" id="2JL-H3-8v1"/>
+                    <constraint firstItem="BJx-KX-fzZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="6Xa-eD-q3J"/>
+                    <constraint firstItem="Rul-wG-7fS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="7jW-uV-ZVX"/>
+                    <constraint firstItem="V7O-Hm-TNz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="JWu-Yb-Vfa"/>
+                    <constraint firstAttribute="bottom" secondItem="V7O-Hm-TNz" secondAttribute="bottom" constant="7.5" id="M8Y-KS-m8U"/>
+                    <constraint firstAttribute="bottom" secondItem="Rul-wG-7fS" secondAttribute="bottom" constant="7.5" id="i15-DA-8ms"/>
+                    <constraint firstItem="BJx-KX-fzZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="pwU-wq-9Lk"/>
+                    <constraint firstItem="V7O-Hm-TNz" firstAttribute="top" secondItem="BJx-KX-fzZ" secondAttribute="bottom" constant="8" id="s05-tU-15M"/>
+                    <constraint firstAttribute="trailing" secondItem="Rul-wG-7fS" secondAttribute="trailing" constant="8" id="vII-YU-ZZx"/>
+                    <constraint firstItem="Rul-wG-7fS" firstAttribute="leading" secondItem="V7O-Hm-TNz" secondAttribute="trailing" constant="8" id="yK4-Zh-jJZ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="25" y="81.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_homepage_holidayCategory_43x43_" width="43" height="43"/>
+    </resources>
+</document>

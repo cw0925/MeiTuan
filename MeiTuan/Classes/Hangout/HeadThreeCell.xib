@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="201" id="KGk-i7-Jjw" customClass="HeadThreeCell" customModule="MeiTuan" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="中国最悠闲的十个城市" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mde-f1-5UE">
+                        <rect key="frame" x="8" y="8" width="304" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="HyS-uP-oCS"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_homepage_aroundjourneyCategory_44x44_" translatesAutoresizingMaskIntoConstraints="NO" id="n4A-nk-VXQ">
+                        <rect key="frame" x="8" y="66" width="96" height="87"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_homepage_homeDecorationCategory_43x43_" translatesAutoresizingMaskIntoConstraints="NO" id="Fjn-op-Ima">
+                        <rect key="frame" x="112" y="66" width="96" height="87"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Fjn-op-Ima" secondAttribute="height" multiplier="32:29" id="ZZx-dJ-amx"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="总有刁民想害朕  刚刚更新" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oL7-mU-j5L">
+                        <rect key="frame" x="8" y="161" width="304" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="asH-6x-T28"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_homepage_travellingCategory_43x43_" translatesAutoresizingMaskIntoConstraints="NO" id="sH9-fi-9ag">
+                        <rect key="frame" x="216" y="66" width="96" height="87"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="n4A-nk-VXQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="0EN-0C-cCk"/>
+                    <constraint firstItem="Fjn-op-Ima" firstAttribute="leading" secondItem="n4A-nk-VXQ" secondAttribute="trailing" constant="8" id="4H1-MK-w0c"/>
+                    <constraint firstItem="Mde-f1-5UE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="6BF-By-rgO"/>
+                    <constraint firstItem="sH9-fi-9ag" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="B4r-D2-Clr"/>
+                    <constraint firstItem="sH9-fi-9ag" firstAttribute="leading" secondItem="Fjn-op-Ima" secondAttribute="trailing" constant="8" id="Biy-2x-VOe"/>
+                    <constraint firstItem="sH9-fi-9ag" firstAttribute="height" secondItem="n4A-nk-VXQ" secondAttribute="height" id="CCS-Pl-QaX"/>
+                    <constraint firstItem="Mde-f1-5UE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="KiQ-5h-QEU"/>
+                    <constraint firstItem="Fjn-op-Ima" firstAttribute="height" secondItem="n4A-nk-VXQ" secondAttribute="height" id="NMp-Hu-wEd"/>
+                    <constraint firstItem="sH9-fi-9ag" firstAttribute="top" secondItem="Mde-f1-5UE" secondAttribute="bottom" constant="8" id="NRa-eK-Aju"/>
+                    <constraint firstItem="n4A-nk-VXQ" firstAttribute="top" secondItem="Mde-f1-5UE" secondAttribute="bottom" constant="8" id="SyN-yV-QxG"/>
+                    <constraint firstItem="sH9-fi-9ag" firstAttribute="leading" secondItem="Fjn-op-Ima" secondAttribute="trailing" constant="8" id="bxf-fl-tqY"/>
+                    <constraint firstItem="Fjn-op-Ima" firstAttribute="width" secondItem="n4A-nk-VXQ" secondAttribute="width" id="cvU-gN-nca"/>
+                    <constraint firstItem="oL7-mU-j5L" firstAttribute="top" secondItem="sH9-fi-9ag" secondAttribute="bottom" constant="8" id="dGH-FF-3K5"/>
+                    <constraint firstItem="oL7-mU-j5L" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="gSk-7a-dNd"/>
+                    <constraint firstItem="oL7-mU-j5L" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="iBp-H9-pzc"/>
+                    <constraint firstItem="Fjn-op-Ima" firstAttribute="leading" secondItem="n4A-nk-VXQ" secondAttribute="trailing" constant="8" id="rTK-TC-WXZ"/>
+                    <constraint firstItem="Fjn-op-Ima" firstAttribute="top" secondItem="Mde-f1-5UE" secondAttribute="bottom" constant="8" id="u3c-YS-zFK"/>
+                    <constraint firstItem="sH9-fi-9ag" firstAttribute="width" secondItem="n4A-nk-VXQ" secondAttribute="width" id="uit-hV-0cL"/>
+                    <constraint firstItem="Mde-f1-5UE" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="ykJ-eS-4rh"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="-46" y="-60"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_homepage_aroundjourneyCategory_44x44_" width="44" height="44"/>
+        <image name="icon_homepage_homeDecorationCategory_43x43_" width="43" height="43"/>
+        <image name="icon_homepage_travellingCategory_43x43_" width="43" height="43"/>
+    </resources>
+</document>
