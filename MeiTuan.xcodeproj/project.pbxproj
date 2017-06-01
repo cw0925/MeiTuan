@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3131794E436D37285BBA4B52 /* Pods_MeiTuan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C486FBD3D1398440F888DFD6 /* Pods_MeiTuan.framework */; };
 		C00C4FF91EC973F600AB7BAC /* HomeCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00C4FF71EC973F600AB7BAC /* HomeCategoryCell.swift */; };
 		C00C4FFA1EC973F600AB7BAC /* HomeCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C00C4FF81EC973F600AB7BAC /* HomeCategoryCell.xib */; };
 		C00C50001EC981EA00AB7BAC /* UIFont+Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00C4FFF1EC981EA00AB7BAC /* UIFont+Scale.swift */; };
@@ -70,6 +71,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		132C6A1EF54FD58060440C09 /* Pods-MeiTuan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeiTuan.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeiTuan/Pods-MeiTuan.release.xcconfig"; sourceTree = "<group>"; };
+		54575439E52BD6DCB5CC5E4B /* Pods-MeiTuan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeiTuan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeiTuan/Pods-MeiTuan.debug.xcconfig"; sourceTree = "<group>"; };
 		C00C4FF71EC973F600AB7BAC /* HomeCategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCategoryCell.swift; sourceTree = "<group>"; };
 		C00C4FF81EC973F600AB7BAC /* HomeCategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCategoryCell.xib; sourceTree = "<group>"; };
 		C00C4FFF1EC981EA00AB7BAC /* UIFont+Scale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Scale.swift"; sourceTree = "<group>"; };
@@ -96,6 +99,7 @@
 		C0E2D2F91EC94118009C92D6 /* NearViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearViewController.swift; sourceTree = "<group>"; };
 		C0E2D2FB1EC9411D009C92D6 /* OrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 		C0E2D2FD1EC94125009C92D6 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		C486FBD3D1398440F888DFD6 /* Pods_MeiTuan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeiTuan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9033ED1EDEA54D002FAF4A /* XXContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XXContentView.swift; sourceTree = "<group>"; };
 		CC9033EE1EDEA54D002FAF4A /* XXTallyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XXTallyView.swift; sourceTree = "<group>"; };
 		CC9033EF1EDEA54D002FAF4A /* XXTitleStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XXTitleStyle.swift; sourceTree = "<group>"; };
@@ -126,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3131794E436D37285BBA4B52 /* Pods_MeiTuan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +151,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		857C8EA3B4113061C0CA09D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C486FBD3D1398440F888DFD6 /* Pods_MeiTuan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C00C4FF41EC973B500AB7BAC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -198,6 +211,8 @@
 				C0E2D2C91EC94002009C92D6 /* MeiTuanTests */,
 				C0E2D2D41EC94003009C92D6 /* MeiTuanUITests */,
 				C0E2D2B31EC94002009C92D6 /* Products */,
+				FCCF2536306C278DBC2A01A4 /* Pods */,
+				857C8EA3B4113061C0CA09D3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -417,6 +432,15 @@
 			name = View;
 			sourceTree = "<group>";
 		};
+		FCCF2536306C278DBC2A01A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54575439E52BD6DCB5CC5E4B /* Pods-MeiTuan.debug.xcconfig */,
+				132C6A1EF54FD58060440C09 /* Pods-MeiTuan.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -424,9 +448,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0E2D2DA1EC94003009C92D6 /* Build configuration list for PBXNativeTarget "MeiTuan" */;
 			buildPhases = (
+				1430B8F4B4220518535E73A0 /* [CP] Check Pods Manifest.lock */,
 				C0E2D2AE1EC94002009C92D6 /* Sources */,
 				C0E2D2AF1EC94002009C92D6 /* Frameworks */,
 				C0E2D2B01EC94002009C92D6 /* Resources */,
+				CC6FD1CFF0187A8D14BC5785 /* [CP] Embed Pods Frameworks */,
+				69E4AC5778DC165433525ED5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -555,6 +582,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1430B8F4B4220518535E73A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		69E4AC5778DC165433525ED5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeiTuan/Pods-MeiTuan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC6FD1CFF0187A8D14BC5785 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeiTuan/Pods-MeiTuan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C0E2D2AE1EC94002009C92D6 /* Sources */ = {
@@ -741,6 +816,7 @@
 		};
 		C0E2D2DB1EC94003009C92D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54575439E52BD6DCB5CC5E4B /* Pods-MeiTuan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q3A9R265EU;
@@ -750,11 +826,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = CW.MeiTuan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Debug;
 		};
 		C0E2D2DC1EC94003009C92D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 132C6A1EF54FD58060440C09 /* Pods-MeiTuan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q3A9R265EU;
@@ -764,6 +842,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = CW.MeiTuan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Release;
 		};
